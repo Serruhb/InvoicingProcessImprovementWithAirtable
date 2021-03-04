@@ -1,14 +1,14 @@
 # Invoicing Process Improvement With Airtable
 
-Problem: Invoicing Process was slow and riddled with errors. 
-    *    Manually entering orders allowed average 20 orders per workday [average volume per month is 1,200].
-    *    Errors were mainly cause by manual data entry [Human Error]
+**Problem:** Invoicing Process was slow and riddled with errors. 
+*    Manually entering orders allowed average 20 orders per workday [average volume per month is 1,200].
+*    Errors were mainly cause by manual data entry [Human Error]
 
-Solution: Extract Report and utilize formulas and scripts to automate invocie process. 
+**Solution:** Extract Report and utilize formulas and scripts to automate invoice process. 
 
 
 
-**Inv_Proc_V.1.0** ~ March 2020 
+## **Inv_Proc_V.1.0** ~ March 2020 
 #### High-Level Process - V.1.0
 
 1. Report extracted
@@ -17,7 +17,7 @@ Solution: Extract Report and utilize formulas and scripts to automate invocie pr
 4. Airtable (at this time) then renamed and rearranged column names. 
 5. Exported and Uploaded to invoicing software.
 
-**Inv_Proc_V.1.8** ~ June 2020 
+## **Inv_Proc_V.1.8** ~ June 2020 
 #### High-Level Process - V.1.8
 
 1. Report extracted
@@ -93,7 +93,7 @@ End Sub
 ```
 
 
-**Inv_Proc_V.2.0** ~ August 2020
+## **Inv_Proc_V.2.0** ~ August 2020
 #### High-Level Process - V.2.0
 
 1. Report extracted
@@ -113,11 +113,31 @@ End Sub
     * Adding 5 more additional contract types (using only low code methods)
     * Updating reports manual and still prone to major errors
 
-**Inv_Proc_V.2.2** ~ November 2020
+## **Inv_Proc_V.2.2** 
+November 2020
 #### High-Level Process - V.2.2
 
 1. Report extracted
 2. Shared file manually updated and edited by 6 - 12 individuals.
+3. Report then transformed and loaded into airtable.
+4. Airtable performs basic CRUD operations.
+5. Exported and Uploaded to invoicing software.
+
+    **Updates**
+    *   Formulas are only maintained with advanced formula creation expreience. 
+    *   5 our of 8 contracts taken in by Airtable
+    **Issues**
+    *   Low code method is becoming complicated and difficult to update with changing invoiving requests.
+    *   Updating reports manual and still prone to major errors
+    *   Stepwise addition resulted in root cause detection difficulties by multi-table CRUD operators.
+
+
+
+**Inv_Proc_V.3.0**
+
+1. Report extracted
+2. Report imported to Airtable
+2. Editable Links 
 3. Report then transformed and loaded into airtable.
 4. Airtable performs basic CRUD operations.
 5. Exported and Uploaded to invoicing software.
@@ -130,7 +150,3 @@ End Sub
     * Low code method is becoming complicated and difficult to update with changing invoiving requests.
     * Updating reports manual and still prone to major errors
     * Stepwise addition resulted in root cause detection difficulties by multi-table CRUD operators.
-
-
-
-**Inv_Proc_V.3.0**
