@@ -1,4 +1,7 @@
+![github](https://user-images.githubusercontent.com/50157566/110019409-0ac9f380-7cee-11eb-9ef7-fa36e18d1a40.jpg)
 # Invoicing Process Improvement With Airtable
+
+
 
 **Problem:** Invoicing Process was slow and riddled with errors. 
 *    Manually entering orders allowed average 20 orders per workday [average volume per month is 1,200].
@@ -156,7 +159,7 @@ End Sub
 
 
 ## **Inv_Proc_V.4.0** ~ February 2021
-#### High-Level Process - V.5.0
+#### High-Level Process - V.4.0
 
 1. Report extracted
 2. Report loaded to Airtable
