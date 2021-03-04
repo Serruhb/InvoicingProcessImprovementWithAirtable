@@ -7,7 +7,7 @@ HighLevel of what will go inside Readme.md
 
 **Inv_Proc_V.1.8** ~ By June 2020 ~ vba script was created for 1 contract type out of 10.
 
-## **VBA Script to Create Template**
+###### **VBA Script to Create Template**
 ``` Sub CostPay()
     Dim count As Integer
     Dim cost As Double
