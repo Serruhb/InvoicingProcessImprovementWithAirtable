@@ -107,7 +107,7 @@ End Sub
     * Airtable allows consistent invoicing process
     * Airtable saves formulas to perform CRUD operations without having to be updated for individual uses.
     * Airtable's views allows for different template types to be created without having to update formulas or scripts. 
-	* excel would error out before running where as airtable errors before uploaded template creation (script errors during)
+	* excel would error out before running, where as, airtable errors before uploaded template creation.
 	* No code needed for contracts fed into Airtable
     **Issues**
     * Adding 5 more additional contract types (using only low code methods)
