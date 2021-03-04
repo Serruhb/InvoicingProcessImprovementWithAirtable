@@ -22,7 +22,7 @@
 
 1. Report extracted
 2. Shared file manually updated and edited by 6 - 12 individuals.
-3. Run vba script contract type could use script then step 6 if no script step 4. 
+3. If vba script not viable for contract type skip to step 4.
 4. Report then transformed and loaded into airtable.
 5. Airtable (at this time) then renamed and rearranged column names. 
 6. Exported and Uploaded to invoicing software.
@@ -106,7 +106,7 @@ End Sub
     * Airtable able to perform basic CRUD operations on 3 contract types.
     * Airtable allows consistent invoicing process
     * Airtable saves formulas to perform CRUD operations without having to be updated for individual uses.
-    * Airtable's views allowed for different template types to be created without having to update formulas or scripts. 
+    * Airtable's views allows for different template types to be created without having to update formulas or scripts. 
 	* excel would error out before running where as airtable errors before uploaded template creation (script errors during)
 	* No code needed for contracts fed into Airtable
     **Issues**
