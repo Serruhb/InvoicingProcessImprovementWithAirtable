@@ -93,7 +93,8 @@ End Sub
 ```
 
 
-## **Inv_Proc_V.2.0** ~ August 2020
+## **Inv_Proc_V.2.0** 
+August 2020
 #### High-Level Process - V.2.0
 
 1. Report extracted
@@ -111,7 +112,7 @@ End Sub
 	* No code needed for contracts fed into Airtable
     **Issues**
     * Adding 5 more additional contract types (using only low code methods)
-    * Updating reports manual and still prone to major errors
+    * Updating reports manually are still prone to major errors
 
 ## **Inv_Proc_V.2.2** 
 November 2020
@@ -128,7 +129,7 @@ November 2020
     *   5 our of 8 contracts taken in by Airtable
     **Issues**
     *   Low code method is becoming complicated and difficult to update with changing invoiving requests.
-    *   Updating reports manual and still prone to major errors
+    *   Updating reports manually are still prone to major errors
     *   Stepwise addition resulted in root cause detection difficulties by multi-table CRUD operators.
 
 
@@ -143,10 +144,7 @@ November 2020
 5. Exported and Uploaded to invoicing software.
 
     **Updates**
-    *   Formulas are only maintained with advanced formula creation expreience. (Not feasible)
-    *   LookUps were difficult to track 
-    *   Only one administrator
+    * 
+
     **Issues**
-    * Low code method is becoming complicated and difficult to update with changing invoiving requests.
-    * Updating reports manual and still prone to major errors
-    * Stepwise addition resulted in root cause detection difficulties by multi-table CRUD operators.
+    
