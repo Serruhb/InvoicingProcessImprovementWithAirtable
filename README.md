@@ -11,16 +11,21 @@ Solution: Extract Report and utilize formulas and scripts to automate invocie pr
 **Inv_Proc_V.1.0** ~ March 2020 
 #### High-Level Process - V.1.0
 
-1. Report extracted /n
+1. Report extracted
 2. Then updated and edited manually by 6 - 12 individuals.
 3. Report then transformed and loaded into airtable.
+4. Airtable (at this time) then renamed and rearranged column names. 
+5. Exported and Uploaded to invoicing software.
 
-**Inv_Proc_V.1.8** ~ June 2020 ~ vba script was created for 1 contract type out of 10.
-#### High-Level Process - V.1.0
+**Inv_Proc_V.1.8** ~ June 2020 
+#### High-Level Process - V.1.8
 
 1. Report extracted
-2. Shared file manually updated and edited.
+2. Shared file manually updated and edited by 6 - 12 individuals.
+3. Run vba script contract type could use script then step 5 if no script step 4. 
 3. Report then transformed and loaded into airtable.
+4. Airtable (at this time) then renamed and rearranged column names. 
+5. Exported and Uploaded to invoicing software.
 
 ###### **VBA Script to Create Template**
 ``` Sub CostPay()
@@ -28,7 +33,7 @@ Solution: Extract Report and utilize formulas and scripts to automate invocie pr
     Dim cost As Double
     Dim new_row As Integer
     Dim last_row As Variant
-    Dim Order_IdentifierAs Integer
+    Dim Order_IdentifierAs Integers
 
    ' setting starting loop values
     count = 0       	
@@ -88,7 +93,16 @@ End Sub
 ```
 
 
-**Inv_Proc_V.2.0**
+**Inv_Proc_V.2.0** ~ August 2020
+#### High-Level Process - V.1.8
+
+1. Report extracted
+2. Shared file manually updated and edited by 6 - 12 individuals.
+3. Run vba script contract type could use script then step 5 if no script step 4. 
+3. Report then transformed and loaded into airtable.
+4. Airtable (at this time) then renamed and rearranged column names. 
+5. Exported and Uploaded to invoicing software.
+
 
 *	Created 2 contract types templates with basic formulas
 *	Why would I change from something that works to Airtable?
@@ -102,9 +116,8 @@ End Sub
     * how to incorportate 8 more additional contract types (using formula only based logic)
     * Updating Sales Orders _Manual_
 
-**Inv_Proc_V.2.2**
-
-*   7/8 contract types being invoiced.
+**Inv_Proc_V.2.2** ~ November 2020
+* 7/8 contract types being invoiced.
 
     **PROS**
     *   All contracts created equal
@@ -116,3 +129,4 @@ End Sub
     *   Only one administrator
 
 
+**Inv_Proc_V.3.0**
