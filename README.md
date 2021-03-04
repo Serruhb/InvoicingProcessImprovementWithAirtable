@@ -1,11 +1,21 @@
 # Invoicing Process Improvement With Airtable
 
+Problem: Invoicing Process was slow and riddled with errors. 
+    *    Manually entering orders allowed average 20 orders per workday [average volume per month is 1,200].
+    *    Errors were mainly cause by manual data entry [Human Error]
 
-HighLevel of what will go inside Readme.md 
+Solution: Extract Report and utilize formulas and scripts to automate invocie process. 
 
-**Inv_Proc_V.1.0** ~ March 2020 ~ the process was mostly manual and riddled with human errors.
 
-**Inv_Proc_V.1.8** ~ By June 2020 ~ vba script was created for 1 contract type out of 10.
+
+**Inv_Proc_V.1.0** ~ March 2020 
+#### High-Level Process - V.1.0
+
+1.) Report extracted 
+2.) Then updated, corrected, and edited manually by 6 - 12 individuals.
+3.) Report then transformed and loaded into airtable.
+
+**Inv_Proc_V.1.8** ~ June 2020 ~ vba script was created for 1 contract type out of 10.
 
 ###### **VBA Script to Create Template**
 ``` Sub CostPay()
