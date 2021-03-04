@@ -93,8 +93,7 @@ End Sub
 ```
 
 
-## **Inv_Proc_V.2.0** 
-August 2020
+## **Inv_Proc_V.2.0** ~ August 2020
 #### High-Level Process - V.2.0
 
 1. Report extracted
@@ -114,8 +113,7 @@ August 2020
     * Adding 5 more additional contract types (using only low code methods)
     * Updating reports manually are still prone to major errors
 
-## **Inv_Proc_V.2.2** 
-November 2020
+## **Inv_Proc_V.2.2** ~ September 2020
 #### High-Level Process - V.2.2
 
 1. Report extracted
@@ -127,6 +125,7 @@ November 2020
     **Updates**
     *   Formulas are only maintained with advanced formula creation expreience. 
     *   5 our of 8 contracts taken in by Airtable
+
     **Issues**
     *   Low code method is becoming complicated and difficult to update with changing invoiving requests.
     *   Updating reports manually are still prone to major errors
@@ -134,17 +133,41 @@ November 2020
 
 
 
-**Inv_Proc_V.3.0**
+## **Inv_Proc_V.3.0** ~ November 2020
+#### High-Level Process - V.3.0
 
 1. Report extracted
-2. Report imported to Airtable
-2. Editable Links 
-3. Report then transformed and loaded into airtable.
-4. Airtable performs basic CRUD operations.
-5. Exported and Uploaded to invoicing software.
+2. Report transformed and loaded to Airtable
+3. Airtable Automations links and updates needed information.
+4. Editable share link sent out for report edits.
+5. Airtable performs basic CRUD operations and template creation.
+6. Exported and Uploaded to invoicing software.
 
     **Updates**
-    * 
+    *   Tracking edits made to records
+    *   Tracking on voided records
+    *   Improved invoice tracking for teams 
+    *   All contracts have same invoicing process.
+    *   Human errors are almost eradicated
 
     **Issues**
+    *   Stepwise addition resulted in root cause detection difficulties by multi-table CRUD operators.
+    *   Low-code formulas evolved into complex logical equations.
+
+
+## **Inv_Proc_V.4.0** ~ February 2021
+#### High-Level Process - V.5.0
+
+1. Report extracted
+2. Report loaded to Airtable
+3. Airtable Automations links and updates needed information.
+4. Editable share link sent out for report edits.
+5. Airtable performs basic CRUD operations and template creation.
+6. Exported and Uploaded to invoicing software.
+
+    **Updates**
+    *   Useing a map table update needed information.
+    *   Formulas used only to perform CRUD functions.
+    *   Linear process up data intake and output.
+    *   Straight forward process for all contract types.
     
