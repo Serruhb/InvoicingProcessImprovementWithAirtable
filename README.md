@@ -173,4 +173,6 @@ End Sub
     *   Formulas used only to perform CRUD functions.
     *   Linear process up data intake and output.
     *   Straight forward process for all contract types.
+
+https://user-images.githubusercontent.com/50157566/110019957-a0fe1980-7cee-11eb-84b5-ed06973561ee.mp4
     
