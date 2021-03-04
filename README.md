@@ -73,7 +73,7 @@ End Sub
 ```
 
 
-## **Inv_Proc_V.2.0**
+**Inv_Proc_V.2.0**
 
 *	Created 2 contract types templates with basic formulas
 *	Why would I change from something that works to Airtable?
@@ -86,13 +86,14 @@ End Sub
     * how to incorportate 8 more additional contract types (using formula only based logic)
     * Updating Sales Orders _Manual_
 
-## **Inv_Proc_V.2.2**
+**Inv_Proc_V.2.2**
 
 *   7/8 contract types being invoiced.
 
     **PROS**
     *   All contracts created equal
     *   All Invoicing can be done with minimal interference
+
     **CONS**
     *   Formulas are only maintained with advanced formula creation expreience. (Not feasible)
     *   LookUps were difficult to track 
