@@ -22,15 +22,15 @@ Solution: Extract Report and utilize formulas and scripts to automate invocie pr
 
 1. Report extracted
 2. Shared file manually updated and edited by 6 - 12 individuals.
-3. Run vba script contract type could use script then step 5 if no script step 4. 
-3. Report then transformed and loaded into airtable.
-4. Airtable (at this time) then renamed and rearranged column names. 
-5. Exported and Uploaded to invoicing software.
+3. Run vba script contract type could use script then step 6 if no script step 4. 
+4. Report then transformed and loaded into airtable.
+5. Airtable (at this time) then renamed and rearranged column names. 
+6. Exported and Uploaded to invoicing software.
 
 ###### **VBA Script to Create Template**
 ``` Sub CostPay()
     Dim count As Integer
-    Dim cost As Double
+    Dim cost As Doublegit
     Dim new_row As Integer
     Dim last_row As Variant
     Dim Order_IdentifierAs Integers
@@ -94,39 +94,43 @@ End Sub
 
 
 **Inv_Proc_V.2.0** ~ August 2020
-#### High-Level Process - V.1.8
+#### High-Level Process - V.2.0
 
 1. Report extracted
 2. Shared file manually updated and edited by 6 - 12 individuals.
-3. Run vba script contract type could use script then step 5 if no script step 4. 
 3. Report then transformed and loaded into airtable.
-4. Airtable (at this time) then renamed and rearranged column names. 
+4. Airtable performs basic CRUD operations.
 5. Exported and Uploaded to invoicing software.
 
-
-*	Created 2 contract types templates with basic formulas
-*	Why would I change from something that works to Airtable?
-    **PROS**
+    **Updates**
+    * Airtable able to perform basic CRUD operations on 3 contract types.
+    * Airtable allows consistent invoicing process
     * Airtable saves formulas to perform CRUD operations without having to be updated for individual uses.
     * Airtable's views allowed for different template types to be created without having to update formulas or scripts. 
 	* excel would error out before running where as airtable errors before uploaded template creation (script errors during)
-	* No code needed for invoicing 1200+ orders a month
-    **CONS**
-    * Lack of knowledge with Airtable can't invoice
-    * how to incorportate 8 more additional contract types (using formula only based logic)
-    * Updating Sales Orders _Manual_
+	* No code needed for contracts fed into Airtable
+    **Issues**
+    * Adding 5 more additional contract types (using only low code methods)
+    * Updating reports manual and still prone to major errors
 
 **Inv_Proc_V.2.2** ~ November 2020
-* 7/8 contract types being invoiced.
+#### High-Level Process - V.2.2
 
-    **PROS**
-    *   All contracts created equal
-    *   All Invoicing can be done with minimal interference
+1. Report extracted
+2. Shared file manually updated and edited by 6 - 12 individuals.
+3. Report then transformed and loaded into airtable.
+4. Airtable performs basic CRUD operations.
+5. Exported and Uploaded to invoicing software.
 
-    **CONS**
+    **Updates**
     *   Formulas are only maintained with advanced formula creation expreience. (Not feasible)
     *   LookUps were difficult to track 
     *   Only one administrator
+    **Issues**
+    * Low code method is becoming complicated and difficult to update with changing invoiving requests.
+    * Updating reports manual and still prone to major errors
+    * Stepwise addition resulted in root cause detection difficulties by multi-table CRUD operators.
+
 
 
 **Inv_Proc_V.3.0**
