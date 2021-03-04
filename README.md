@@ -11,11 +11,16 @@ Solution: Extract Report and utilize formulas and scripts to automate invocie pr
 **Inv_Proc_V.1.0** ~ March 2020 
 #### High-Level Process - V.1.0
 
-1.) Report extracted 
-2.) Then updated, corrected, and edited manually by 6 - 12 individuals.
-3.) Report then transformed and loaded into airtable.
+1. Report extracted /n
+2. Then updated and edited manually by 6 - 12 individuals.
+3. Report then transformed and loaded into airtable.
 
 **Inv_Proc_V.1.8** ~ June 2020 ~ vba script was created for 1 contract type out of 10.
+#### High-Level Process - V.1.0
+
+1. Report extracted
+2. Shared file manually updated and edited.
+3. Report then transformed and loaded into airtable.
 
 ###### **VBA Script to Create Template**
 ``` Sub CostPay()
@@ -88,7 +93,8 @@ End Sub
 *	Created 2 contract types templates with basic formulas
 *	Why would I change from something that works to Airtable?
     **PROS**
-    * because Airtable holds as a "template"
+    * Airtable saves formulas to perform CRUD operations without having to be updated for individual uses.
+    * Airtable's views allowed for different template types to be created without having to update formulas or scripts. 
 	* excel would error out before running where as airtable errors before uploaded template creation (script errors during)
 	* No code needed for invoicing 1200+ orders a month
     **CONS**
