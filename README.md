@@ -1,3 +1,3 @@
 # InvoicingProcessImprovementWithAirtable
 
-##Checking the formatting in ##**VB Editor**
+## Checking the formatting in ### **VB Editor**
